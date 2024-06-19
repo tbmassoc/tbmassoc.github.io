@@ -1,0 +1,13 @@
+<svg width="412" height="412"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+  <title>La Luna 🌙</title>
+  <defs>
+    <clipPath id="clip0">
+      <rect x="1994" y="899" width="412" height="412"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip0)" transform="translate(-1994 -899)">
+    <path d="M2172.77 899 2166.77 903.947C2136.79 933.926 2118.25 975.342 2118.25 1021.09 2118.25 1112.58 2192.42 1186.75 2283.91 1186.75 2329.66 1186.75 2371.07 1168.21 2401.05 1138.23L2406 1132.23 2403.95 1145.65C2384.64 1240.02 2301.15 1311 2201.08 1311 2086.71 1311 1994 1218.29 1994 1103.92 1994 1003.85 2064.98 920.357 2159.35 901.048Z" fill="#3d374c" fill-rule="evenodd" />
+  </g>
+</svg>
