@@ -1,0 +1,13 @@
+.theme-light {
+  --background-color: #dcc6bb;
+  --text-color: #3d374c;
+  --link-color-hover: #5a4d6d;
+  --link-color-active: #7b6f8c;
+}
+
+.theme-dark {
+  --background-color: #3d374c;
+  --text-color: #dcc6bb;
+  --link-color-hover: #cab2a6;
+  --link-color-active: #f0e6e1;
+}
