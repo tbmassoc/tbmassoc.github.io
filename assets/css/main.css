@@ -37,6 +37,7 @@ span[class^="material-symbols"] {
 span[class^="material-symbols"]:hover { color: var(--link-color-hover); }
 span[class^="material-symbols"]:active { color: var(--link-color-active); }
 
+a { cursor: pointer; }
 a:link, a:visited {
   color: var(--text-color);
   text-decoration: none;
