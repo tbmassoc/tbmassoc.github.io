@@ -3,9 +3,10 @@
   --background-color-hover: #c0aca2;
   --background-color-active: #ecd6ca;
   --text-color: #3d374c;
-  --link-color-hover: #312c3d;
-  --link-color-active: #514964;
+  --text-color-hover: #312c3d;
+  --text-color-active: #514964;
   --box-shadow: 0 4px 8px #3d374c40;
+  --filter-drop-shadow: drop-shadow(0 2px 4px #3d374c40);
 }
 
 .theme-dark {
@@ -13,7 +14,8 @@
   --background-color-hover: #312c3d;
   --background-color-active: #514964;
   --text-color: #dcc6bb;
-  --link-color-hover: #c0aca2;
-  --link-color-active: #ecd6ca;
+  --text-color-hover: #c0aca2;
+  --text-color-active: #ecd6ca;
   --box-shadow: 0 4px 8px #dcc6bb40;
+  --filter-drop-shadow: drop-shadow(0 2px 4px #dcc6bb40);
 }

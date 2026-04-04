@@ -34,16 +34,16 @@ span[class^="material-symbols"] {
   user-select: none;
   cursor: pointer;
 }
-span[class^="material-symbols"]:hover { color: var(--link-color-hover); }
-span[class^="material-symbols"]:active { color: var(--link-color-active); }
+span[class^="material-symbols"]:hover { color: var(--text-color-hover); }
+span[class^="material-symbols"]:active { color: var(--text-color-active); }
 
 a { cursor: pointer; }
 a:link, a:visited {
   color: var(--text-color) !important;
   text-decoration: none;
 }
-a:hover { color: var(--link-color-hover) !important; }
-a:active { color: var(--link-color-active) !important; }
+a:hover { color: var(--text-color-hover) !important; }
+a:active { color: var(--text-color-active) !important; }
 
 header {
   width: 100%;
@@ -106,7 +106,23 @@ footer {
   }
 }
 
+button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: inherit;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: none;
+  padding: calc(15px * 0.75) calc(30px * 0.75);
+  border-radius: 7.5px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+button:hover { background-color: var(--text-color-hover); }
+button:active { background-color: var(--text-color-active); }
+
 .subPageContent {
+  background-color: var(--background-color);
   width: 100%;
   * { margin: 0; }
   .subPageInner {
@@ -114,54 +130,55 @@ footer {
     max-width: 100%;
     padding: 45px 15px;
     margin: 0 auto;
-    .pressArticleBtn {
-      background-color: var(--background-color);
-      width: 100%;
-      overflow: hidden;
-      border-radius: 15px;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-      cursor: pointer;
-      box-shadow: var(--box-shadow);
-      img {
-        aspect-ratio: 16 / 6;
-        object-fit: cover;
-      }
-      .pressArticleHead {
-        height: 375px;
-        position: relative;
-        .pressArticleImg {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-        }
-        span {
-          position: absolute;
-          top: 15px;
-          right: 15px;
-          color: #dcc6bb;
-          background-color: #3d374c80;
-          padding: calc(15px / 6) calc(15px / 3);
-          border-radius: 5px;
-        }
-      }
-      .pressArticleTxt {
-        width: 500px;
-        max-width: 100%;
-        padding: 15px;
-        margin: 0 auto;
-      }
-    }
-    .pressArticleBtn:hover { background-color: var(--background-color-hover); }
-    .pressArticleBtn:active { background-color: var(--background-color-active); }
   }
 }
 
-.pressArticleHead {
+.pressArticleBtn {
+  background-color: var(--background-color);
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  img {
+    aspect-ratio: 16 / 6;
+    object-fit: cover;
+  }
+  .pressArticleHead {
+    height: 375px;
+    position: relative;
+    .pressArticleImg {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    span {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      color: #dcc6bb;
+      background-color: #3d374c80;
+      padding: calc(15px / 6) calc(15px / 3);
+      border-radius: 5px;
+    }
+  }
+  .pressArticleTxt {
+    width: 500px;
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+}
+.pressArticleBtn:hover { background-color: var(--background-color-hover); }
+.pressArticleBtn:active { background-color: var(--background-color-active); }
+
+.pressArticleHero {
   width: 100%;
   height: 625px;
   background-size: cover;
@@ -176,3 +193,14 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* bootstrap icons */
+.bi, .bi:visited {
+  display: inline-block;
+  font-size: inherit;
+  cursor: pointer;
+  color: var(--text-color);
+  margin: 1.5px;
+}
+.bi:hover { color: var(--text-color-hover); }
+.bi:active { color: var(--text-color-active); }
