@@ -1,21 +1,39 @@
 .theme-light {
   --background-color: #dcc6bb;
+  --background-color-25: #dcc6bb40;
+  --background-color-50: #dcc6bb80;
+  --background-color-75: #dcc6bba0;
   --background-color-hover: #c0aca2;
   --background-color-active: #ecd6ca;
   --text-color: #3d374c;
+  --text-color-25: #3d374c40;
+  --text-color-50: #3d374c80;
+  --text-color-75: #3d374ca0;
+  --text-color-: #3d374c80;
   --text-color-hover: #312c3d;
   --text-color-active: #514964;
   --box-shadow: 0 4px 8px #3d374c40;
+  --box-shadow-invert: 0 4px 8px #dcc6bb40;
   --filter-drop-shadow: drop-shadow(0 2px 4px #3d374c40);
+  --filter-drop-shadow-invert: drop-shadow(0 2px 4px #dcc6bb40);
 }
 
 .theme-dark {
   --background-color: #3d374c;
+  --background-color-25: #3d374c40;
+  --background-color-50: #3d374c80;
+  --background-color-75: #3d374ca0;
   --background-color-hover: #312c3d;
   --background-color-active: #514964;
   --text-color: #dcc6bb;
+  --text-color-25: #dcc6bb40;
+  --text-color-50: #dcc6bb80;
+  --text-color-75: #dcc6bba0;
+  --text-color-: #dcc6bb80;
   --text-color-hover: #c0aca2;
   --text-color-active: #ecd6ca;
   --box-shadow: 0 4px 8px #dcc6bb40;
+  --box-shadow-invert: 0 4px 8px #3d374c40;
   --filter-drop-shadow: drop-shadow(0 2px 4px #dcc6bb40);
+  --filter-drop-shadow-invert: drop-shadow(0 2px 4px #3d374c40);
 }
